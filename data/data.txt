@@ -1,0 +1,5 @@
+Cecil,Dark Knight,Sword
+Kain,Dragoon,Spear
+Rosa,White Mage,Staff
+Rydia,Summoner,Rod
+Edge,Ninja,Katana
