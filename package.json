@@ -1,15 +1,16 @@
 {
   "name": "high-order-functions-in-javascript",
   "version": "1.0.0",
-  "author": "Jose Gonzalez",  
-  "description": "High-order functions examples in JavaScript",  
+  "author": "Jose Gonzalez",
+  "description": "High-order functions examples in JavaScript",
   "devDependencies": {
     "babel-cli": "^6.18.0",
-    "babel-preset-latest": "^6.16.0"
+    "babel-preset-latest": "^6.16.0",
+    "lodash": "^4.17.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "transpile-es2015": "babel src -d lib"    
-  },  
-  "license": "ISC"
+    "transpile-es2015": "babel src -d lib"
+  },
+  "license": "ISC"  
 }
