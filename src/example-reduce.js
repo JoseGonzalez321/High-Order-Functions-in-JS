@@ -6,12 +6,14 @@ var hps = [
     { amount: 900 }
 ];
 
+let startingHp = 0;
+
 var totalHp = hps.reduce(function(sum, hp) {
     return sum + hp.amount;
-}, 0);
+}, startingHp);
 
 // using => syntax
-var totalHp2 = hps.reduce((sum, hp) => sum + hp.amount, 0);
+var totalHp2 = hps.reduce((sum, hp) => sum + hp.amount, startingHp);
 
 console.log("Your total HP: " + totalHp);
-console.log("Your total HP2: " + totalHp);
+console.log("Your total HP2: " + totalHp2);
